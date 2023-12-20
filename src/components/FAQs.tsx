@@ -3,8 +3,8 @@ import iconStar from "../assets/images/icon-star.svg";
 
 const FAQs = () => {
 	return (
-		<div className="flex w-screen bg-contain bg-no-repeat justify-center items-center h-screen bg-light-pink bg-[url('./assets/images/background-pattern-desktop.svg')]">
-			<div className="w-1/2 bg-white rounded-lg px-14 py-14">
+		<div className="flex w-screen bg-contain bg-no-repeat justify-center h-screen bg-light-pink bg-[url('./assets/images/background-pattern-desktop.svg')]">
+			<div className="fixed w-1/2 bg-white rounded-lg mt-[10rem] px-14 py-14">
 				<div className="flex items-center">
 					<img src={iconStar} alt="" />
 					<h2 className="ml-4 text-5xl font-work-sans-bold">FAQs</h2>

@@ -13,9 +13,9 @@ const Accordian = ({question, answer}: Props) => {
 
 	return (
 		<>
-			<div className="overflow-clip accordian-item">
+			<div className="pt-4 overflow-clip accordian-item">
 				<button
-					className="flex items-center justify-between w-full py-1 font-work-sans-semi-bold"
+					className="flex items-center justify-between w-full py-1 text- font-work-sans-semi-bold"
 					onClick={() => setAccordianOpen(!accordianOpen)}
 				>
 					{question}
@@ -36,6 +36,7 @@ const Accordian = ({question, answer}: Props) => {
 						{answer}
 					</p>
 				</div>
+				<hr />
 			</div>
 		</>
 	);
