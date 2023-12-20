@@ -4,7 +4,7 @@ import iconStar from "../assets/images/icon-star.svg";
 const FAQs = () => {
 	return (
 		<div className="flex w-screen bg-contain bg-no-repeat justify-center h-screen overflow-auto bg-light-pink bg-[url('./assets/images/background-pattern-desktop.svg')]">
-			<div className="fixed w-1/2 bg-white rounded-lg mt-[11rem] px-14 py-14">
+			<div className="fixed w-1/2 bg-white rounded-lg mt-[14rem] px-14 py-14">
 				<div className="flex items-center">
 					<img src={iconStar} alt="" />
 					<h2 className="ml-4 text-5xl font-work-sans-bold">FAQs</h2>
