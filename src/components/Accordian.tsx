@@ -13,7 +13,7 @@ const Accordian = ({question, answer}: Props) => {
 
 	return (
 		<>
-			<div className="pt-4 overflow-clip accordian-item">
+			<div className="pt-4 accordian-item">
 				<button
 					className="flex items-center justify-between w-full py-1 text- font-work-sans-semi-bold"
 					onClick={() => setAccordianOpen(!accordianOpen)}
@@ -26,7 +26,7 @@ const Accordian = ({question, answer}: Props) => {
 					)}
 				</button>
 				<div
-					className={`grid overflow-hidden ${
+					className={`grid ${
 						accordianOpen
 							? "grid-rows-[1fr]"
 							: "grid-rows-[0fr]"
